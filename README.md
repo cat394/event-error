@@ -15,8 +15,12 @@ application and offers a very smooth error handling experience.
 
    // AppErrorEvent = Record<'error', Error>;
 
-   interface DocumentEventMap {
-     appError: CustomEvent<AppErrorDetail>;
+   import { AppErrorEvent } from "@kokomi/event-error";
+
+   declare global {
+    interface DocumentEventMap {
+      "appError": CustomEvent<AppErrorDetail>;
+    }
    }
    ```
 
