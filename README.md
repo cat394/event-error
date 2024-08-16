@@ -13,13 +13,13 @@ application and offers a very smooth error handling experience.
    // index.d.ts
    import { AppErrorEvent } from "@kokomi/event-error";
 
-   // AppErrorEvent = Record<'error', Error>;
-
+   // AppErrorEvent = { error: Error }
+   
    import { AppErrorEvent } from "@kokomi/event-error";
 
    declare global {
      interface DocumentEventMap {
-       "appError": CustomEvent<AppErrorDetail>;
+       "appError": CustomEvent<AppErrorEvent>;
      }
    }
    ```
