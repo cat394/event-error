@@ -1,3 +1,3 @@
-import { dispatchError } from './main';
+import { dispatchError } from "./main";
 
 export { dispatchError };

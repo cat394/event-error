@@ -38,6 +38,6 @@
  * });
  */
 export function dispatchError(error: Error): void {
-	const event = new CustomEvent('appError', { detail: { error } });
-	document.dispatchEvent(event);
+  const event = new CustomEvent("appError", { detail: { error } });
+  document.dispatchEvent(event);
 }
