@@ -14,7 +14,7 @@ application and offers a very smooth error handling experience.
    import { AppErrorEvent } from "@kokomi/event-error";
 
    // AppErrorEvent = { error: Error }
-   
+
    import { AppErrorEvent } from "@kokomi/event-error";
 
    declare global {

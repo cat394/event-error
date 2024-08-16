@@ -1,4 +1,4 @@
-import { dispatchError } from './main';
-import type { AppErrorEvent } from './types';
+import { dispatchError } from "./main";
+import type { AppErrorEvent } from "./types";
 
-export { dispatchError, type AppErrorEvent };
+export { type AppErrorEvent, dispatchError };
