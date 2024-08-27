@@ -5,6 +5,39 @@ This package provides the most graceful way to handle errors in the frontend.
 By centralizing all errors, it enhances the maintainability of your web
 application and offers a very smooth error handling experience.
 
+## Installation
+
+NPM:
+
+```bash
+npx jsr add @kokomi/event-error
+```
+
+PNPM:
+
+```bash
+pnpm dlx jsr add @kokomi/event-error
+```
+
+Deno:
+
+```bash
+deno add @kokomi/event-error
+```
+
+Yarn:
+
+```bash
+yarn dlx jsr add @kokomi/event-error
+```
+
+Bun:
+
+```bash
+bunx jsr add @kokomi/event-error
+```
+
+
 ## Usage
 
 1. Define the type for the custom event listener:
