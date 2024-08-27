@@ -37,7 +37,6 @@ Bun:
 bunx jsr add @kokomi/event-error
 ```
 
-
 ## Usage
 
 1. Define the type for the custom event listener:
